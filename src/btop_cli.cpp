@@ -158,16 +158,16 @@ namespace Cli {
 	void help() noexcept {
 		fmt::print(
 				"{0}Options:{1}\n"
-				"  {2}-c, --config {1}<file>  Path to a config file\n"
-				"  {2}-d, --debug{1}          Start in debug mode with additional logs and metrics\n"
-				"  {2}    --force-utf{1}      Override automatic UTF locale detection\n"
-				"  {2}-l, --low-color{1}      Disable true color, 256 colors only\n"
-				"  {2}-p, --preset {1}<id>    Start with a preset (0-9)\n"
-				"  {2}-t, --tty{1}            Force tty mode with ANSI graph symbols and 16 colors only\n"
-				"  {2}    --no-tty{1}         Force disable tty mode\n"
-				"  {2}-u, --update {1}<ms>    Set an initial update rate in milliseconds\n"
-				"  {2}-h, --help{1}           Show this help message and exit\n"
-				"  {2}-V, --version{1}        Show a version message and exit (more with --version)\n",
+				"  {2}-c,    --config {1}<file>  Path to a config file\n"
+				"  {2}-d,    --debug{1}          Start in debug mode with additional logs and metrics\n"
+				"  {2}       --force-utf{1}      Override automatic UTF locale detection\n"
+				"  {2}-l,    --low-color{1}      Disable true color, 256 colors only\n"
+				"  {2}-p,    --preset {1}<id>    Start with a preset (0-9)\n"
+				"  {2}-t,    --tty{1}            Force tty mode with ANSI graph symbols and 16 colors only\n"
+				"  {2}-T,    --no-tty{1}         Force disable tty mode\n"
+				"  {2}-u,    --update {1}<ms>    Set an initial update rate in milliseconds\n"
+				"  {2}-h,    --help{1}           Show this help message and exit\n"
+				"  {2}-v,-V, --version{1}        Show a version message and exit (more with --version)\n",
 				BOLD_UNDERLINE, RESET, BOLD
 		);
 	}

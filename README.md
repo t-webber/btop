@@ -1499,14 +1499,14 @@ log_level = "DEBUG"
 #### Command line options
 
 ```text
-usage: btop [-h] [-v] [-/+t] [-p <id>] [--force-utf] [--debug]
+usage: btop [-h] [-v] [-lc] [-t|-T] [-p <id>] [--force-utf] [--debug]
 
 optional arguments:
   -h, --help            show this help message and exit
-  -v, --version         show version info and exit
+  -v,-V, --version         show version info and exit
   -lc, --low-color      disable truecolor, converts 24-bit colors to 256-color
   -t, --tty_on          force (ON) tty mode, max 16 colors and tty friendly graph symbols
-  +t, --tty_off         force (OFF) tty mode
+  -T, --tty_off         force (OFF) tty mode
   -p, --preset <id>     start with preset, integer value between 0-9
   --force-utf           force start even if no UTF-8 locale was detected
   --debug               start in DEBUG mode: shows microsecond timer for information collect
